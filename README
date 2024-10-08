@@ -1,0 +1,11 @@
+This repository contains a Kicad project defining the HW for the
+bms-monitor project.
+
+
+Version v1.0 is the prototype made for an esp32s3_devkitc with 9 modules 
+between the two pin rows. This variant seems to be the one with micro USB
+connectors.
+
+The display to use is the open-smart 3.8" TFT LCD Shield based on ILI 9488
+
+
