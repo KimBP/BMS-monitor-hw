@@ -2,10 +2,20 @@ This repository contains a Kicad project defining the HW for the
 bms-monitor project.
 
 
-Version v1.0 is the prototype made for an esp32s3_devkitc with 9 modules 
-between the two pin rows. This variant seems to be the one with micro USB
-connectors.
+Version v2.0 is a prototype made for an esp32s3_devkitc with 9 or 10  modules 
+between the two pin rows.
 
-The display to use is the open-smart 3.8" TFT LCD Shield based on ILI 9488
+The display to use is a 3.5" TFT LCD shield based on a ILI9488 controller
+with SPI.
+Furthermore the display has an xpt2046 touch controller. Also SPI
 
+
+TO CHANGE in next version:
+
+- Diodes to make power possible both via NMEA connector and a separate power
+  supply at the same time
+
+- Buffer on 5V to 3V pins (CAN buffer to ESP32)
+
+- Pullup on touch MISO
 
